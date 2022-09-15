@@ -65,8 +65,11 @@ img {
     margin: 0 auto;
 }
 
-.clearfix{
+.clearfix {
+    margin: 0 auto;
+}
+
+.clearfix:after{
     content: '';
     display: block;
-    margin: 0 auto;
 }
