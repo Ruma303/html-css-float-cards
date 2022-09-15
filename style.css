@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: 'Reem Kufi Fun', sans-serif;
+    padding: 5rem;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+h1 {
+    color: rgb(228, 46, 109);
+    margin-bottom: 3rem;
+    font-weight: 800;
+}
+
+header>p {
+    font-weight: 400;
+}
+
+.up-row {
+    float: left; 
+}
+
+.down-row {
+    float: left; 
+}
+
+.col {
+    font-family: 'Reem Kufi Fun', sans-serif;
+    width: 320px;
+    height: 100px;
+    background-color: rgb(14, 13, 22);
+    margin: 1rem;
+    float: left;
+    text-align: left;
+    /* cerca ombra per i vari contenitori */
+}
+
+.testi {
+    margin-top: 10px;
+    font-weight: 300;
+
+}
+img {
+    float: left;
+    width: 100px;
+    margin-right: 15px;
+}
+
+.nome {
+    color: white;
+    margin-bottom: 5px;
+}
+
+.professione {
+    color: white;
+    margin-bottom: 5px;
+
+}
+
+.email {
+    color: rgb(55, 175, 210);
+    text-decoration: none;
+}
+
+.clearfix{
+    margin: 0 auto;
+}
+
+/* .clearfix:after{
+    content: '';
+    display: block;
+} */
