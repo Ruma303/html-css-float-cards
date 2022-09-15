@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    /* padding: 0; */
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -38,8 +38,7 @@ header>p {
     margin: 1rem;
     float: left;
     text-align: left;
-    box-shadow: 5px 5px rgba(0, 0, 0, 0.705);
-    /* cerca ombra per i vari contenitori */
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.418);
 }
 
 .testi {
@@ -73,7 +72,7 @@ img {
     margin: 0 auto;
 }
 
-/* .clearfix:after{
+.clearfix::after{
     content: '';
     display: block;
-} */
+}
