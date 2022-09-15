@@ -65,11 +65,12 @@ img {
     margin: 0 auto;
 }
 
-.clearfix {
+/* .clearfix {
     margin: 0 auto;
-}
+} */
 
-.clearfix:after{
-    content: '';
-    display: block;
-}
+.clearfix::after {  
+    content: "";  
+    display: table;  
+    clear: both;
+    }
