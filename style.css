@@ -22,13 +22,6 @@ header>p {
     font-weight: 400;
 }
 
-.up-row {
-    float: left; 
-}
-
-.down-row {
-    float: left; 
-}
 
 .col {
     font-family: 'Reem Kufi Fun', sans-serif;
@@ -75,5 +68,5 @@ img {
 .clearfix{
     content: '';
     display: block;
-    margin: 0;
+    margin: 0 auto;
 }
