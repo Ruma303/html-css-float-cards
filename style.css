@@ -38,6 +38,7 @@ header>p {
     margin: 1rem;
     float: left;
     text-align: left;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.705);
     /* cerca ombra per i vari contenitori */
 }
 
@@ -68,7 +69,7 @@ img {
     text-decoration: none;
 }
 
-.clearfix{
+.schede{
     margin: 0 auto;
 }
 
