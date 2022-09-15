@@ -72,7 +72,8 @@ img {
     margin: 0 auto;
 }
 
-.clearfix::after{
+.clearfix{
     content: '';
     display: block;
+    margin: 0;
 }
